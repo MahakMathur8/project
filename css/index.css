@@ -1,0 +1,21 @@
+
+div
+{
+    width: 90% !important;
+    margin: 30px ;
+}
+button
+{
+    width: 300px;
+}
+.head
+{
+    border: black 1px solid;
+    width: 50% !important;
+    color: lightcyan;
+    background-color: rgb(10, 10, 77);
+    padding: 30px;
+    margin-top: 60px !important;
+}
+
+

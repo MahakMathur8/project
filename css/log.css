@@ -1,0 +1,43 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.logback
+{
+    background-image: linear-gradient(lightblue, rgb(21, 75, 173));
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.logmain
+{
+    width: 30%;
+    border: 5px solid black;
+    margin: 74px auto;
+    padding: 50px;
+    font-size: 24px;
+    position: relative;
+}
+.logmain h1
+{
+    padding-bottom: 30px;
+}
+form div
+{
+    padding-bottom: 30px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+}
+.logbutton
+{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}

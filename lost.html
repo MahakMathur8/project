@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lost form</title>
+
+    <!-- bootstrap................................ -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- css.......................................... -->
+    <link rel="stylesheet" href="css/lost.css">
+
+</head>
+<body>
+    <h1>Report Lost Item</h1>
+    <div class="main">
+        <div class="border" border-primary shadow-sm>
+            <h3> Details</h3>
+      
+
+            <hr>
+        <div class="row">
+          <div class="col">
+              <label for="">Date of Incident:</label> <br>
+            <input  type="date" class="form-control" id="date" placeholder="" name="date" row=>
+          </div> 
+          <div class="col">
+              <label for="">Time of Incident:</label> <br>
+            <input  type="time" class="form-control" placeholder="Enter Time" name="time">
+          
+        </div> 
+        <br>
+
+        
+        <!-- <button type="submit" class="btn btn-success mt-3">Submit</button> -->
+        <div class="form-group">
+            <label for="sel1">Select State:</label>
+      <select class="form-control" id="sel1" name="sellist1">
+        <option>Andhra Pradesh</option>
+        <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        <option>Bihar</option>
+        <option>Goa</option>
+        <option> Gujarat</option>
+        <option>Haryana</option>
+        <option>Himachal Pradesh</option>
+        <option>Jammu and Kashmir</option>
+        <option>Jharkhand</option>
+        <option> Karnataka</option>
+        <option>Kerala</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option> Manipur</option>
+        <option> Meghalaya</option>
+        <option>Mizoram </option>
+        <option> Nagaland </option>
+        <option> Odisha (Orissa)</option>
+        <option>Punjab</option>
+        <option value="">Rajasthan</option>
+        <option value=""> Sikkim </option>
+        <option value=""> Tamil Nadu</option>
+      </select>
+      <div class="hi">
+        <label for="">Title:</label>
+        <input class="form-control" type="text" placeholder=" Enter Title">
+      </div> <br>
+     
+      <div class="textar">
+        <label for="">Description of Complaint:</label>
+        
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= " Enter Description" rows="3"></textarea>
+      </div>
+      <div class="hi">
+        <label for="">Location Lost\Found:</label>
+        <input class="form-control" type="text" placeholder="Location">
+      </div> <br>
+      <div class="hhh">
+        <label for="sel1">Gender:</label>
+  <select class="form-control" id="sel1"name="sellist1">
+    <option>Female</option>
+    <option>Male</option>
+    <option>Both</option>
+    <option>Unknown</option>
+  </select>
+  </div>
+
+      <div class="textar">
+        <label for="">Remarks:</label>
+        
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= "Remarks" rows="3"></textarea>
+      </div>
+          <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+          <div class=button>
+          <button type="button" class="btn btn-success btn-md btn-block active" >Submit</button>
+        </div>
+        </div>
+       
+      
+    
+      
+      </form>
+   
+    
+</body>
+</html>

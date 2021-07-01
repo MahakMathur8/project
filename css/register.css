@@ -1,0 +1,17 @@
+body
+{
+    background-color: lightgray;
+}
+.registerform{
+    margin: 5% auto !important;
+    width:50vw;
+    max-width: 80%;
+    background-image:linear-gradient(rgb(235, 235, 175),rgb(173, 173, 16));
+}
+.form-group{
+    margin: 2vw;
+}
+button
+{
+    margin: 5px auto !important;
+}
